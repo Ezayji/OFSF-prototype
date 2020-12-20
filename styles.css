@@ -62,6 +62,10 @@ p {
     text-shadow: 0px 6px 13px black;
 }
 
+#artists, #portfolio {
+    max-width: 1843px;
+}
+
 /* Navigation */
 
 header {
@@ -101,6 +105,7 @@ nav a {
 
 .banner {
     width: 100%;
+    max-width: 2048px;
     max-height: 900px;
 }
 
