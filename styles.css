@@ -93,6 +93,10 @@ nav a {
     color: #e7e7e7;
 }
 
+#con {
+    display: none;
+}
+
 /* Banner */
 
 .banner {
@@ -163,6 +167,20 @@ nav a {
 }
 
 
+/* Portfolio */
+
+#portfolio {
+    width: 90%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: 22px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.song {
+    margin-bottom: 22px;
+}
+
 /* Contact */
 
 #contact {
@@ -206,12 +224,17 @@ footer p {
         margin-bottom: 40px;
     }
 
-    .banner {
+    .banner, #mission h1, #mis {
         display: none;
     }
 
-    #mission h1 {
-        display: none;
+    #portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #con {
+        display: initial;
     }
 
 }
@@ -225,4 +248,17 @@ footer p {
         margin: 0 20px;
         margin-bottom: 40px;
     }
+
+    #portfolio {
+        flex-wrap: wrap;
+    }
+
+    #mis {
+        display: none;
+    }
+
+    #con {
+        display: initial;
+    }
+
 }
