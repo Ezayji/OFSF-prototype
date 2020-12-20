@@ -100,7 +100,7 @@ nav a {
 /* Banner */
 
 .banner {
-    width: 90%;
+    width: 100%;
     max-height: 900px;
 }
 
@@ -173,12 +173,14 @@ nav a {
     width: 90%;
     display: inline-flex;
     justify-content: space-evenly;
-    margin-top: 22px;
+/*    margin-top: 22px; */
     border-bottom: 2px solid #e7e7e7;
+    flex-wrap: wrap;
 }
 
 .song {
-    margin-bottom: 22px;
+/*    margin-bottom: 22px;  */
+    margin: 22px;
 }
 
 /* Contact */
@@ -247,10 +249,6 @@ footer p {
     #mission p {
         margin: 0 20px;
         margin-bottom: 40px;
-    }
-
-    #portfolio {
-        flex-wrap: wrap;
     }
 
     #mis {
