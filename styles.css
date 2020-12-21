@@ -38,7 +38,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(#0d1117, #4e04af);
+    background-image: linear-gradient(#0d1117, #4e04af);   
 }
 
 h1 {
@@ -95,6 +95,7 @@ nav a {
     font-size: 30px;
     text-decoration-line: none;
     color: #e7e7e7;
+    margin: 0 7px;
 }
 
 #con {
