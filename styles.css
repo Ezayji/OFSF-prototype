@@ -96,6 +96,11 @@ nav a {
     text-decoration-line: none;
     color: #e7e7e7;
     margin: 0 7px;
+    transition: text-shadow 0.5s;
+}
+
+nav a:hover {
+    text-shadow: 0 0 40px #982dfd;
 }
 
 #con {
