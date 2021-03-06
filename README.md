@@ -10,3 +10,5 @@ The project is created with:
 ## Setup
 * Download the files
 * Run "index.html" locally with Google Chrome
+
+Visit [OFSF-prototype]: https://ezayji.github.io/OFSF-prototype/ for live version!
